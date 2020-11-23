@@ -1,0 +1,67 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "CPI-Proxy West EU",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "https://cpi-proxy-europe-apim.azure-api.net"
+        }
+    ],
+    "paths": {
+        "/*": {
+            "post": {
+                "summary": "All Paths",
+                "operationId": "all-paths",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            },
+            "get": {
+                "summary": "All Paths Get",
+                "operationId": "all-paths-get",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/status-0123456789abcdef": {
+            "head": {
+                "summary": "Custom Probe",
+                "operationId": "custom-probe",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "apiKeyHeader": {
+                "type": "apiKey",
+                "name": "Ocp-Apim-Subscription-Key",
+                "in": "header"
+            },
+            "apiKeyQuery": {
+                "type": "apiKey",
+                "name": "subscription-key",
+                "in": "query"
+            }
+        }
+    },
+    "security": [
+        {
+            "apiKeyHeader": []
+        },
+        {
+            "apiKeyQuery": []
+        }
+    ]
+}
