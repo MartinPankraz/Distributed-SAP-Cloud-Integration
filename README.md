@@ -13,6 +13,8 @@ Find more details on the SAP community [blog](https://blogs.sap.com/2021/01/18/s
 
 The zip file "FailoverOnboarding.zip" contains the iFlows used in the blog.
 
+See also [SAP's Discovery Center Mission](https://github.com/SAP-samples/btp-cloud-integration-intelligent-routing) based upon my blog series.
+
 ## 3. High availability concepts within same BTP and Azure region
 Find more details on the SAP community [blog]()
 
