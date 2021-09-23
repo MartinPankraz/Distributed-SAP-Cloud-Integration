@@ -16,7 +16,7 @@ The zip file "FailoverOnboarding.zip" contains the iFlows used in the blog.
 See also [SAP's Discovery Center Mission](https://github.com/SAP-samples/btp-cloud-integration-intelligent-routing) based upon my blog series.
 
 ## 3. High availability concepts within same BTP and Azure region
-Find more details on the SAP community [blog]()
+Find more details on the SAP community [blog](https://blogs.sap.com/2021/09/23/black-friday-will-take-your-cpi-instance-offline-unless/)
 
 SAP Docs for CPI API runtime setup can be found [here](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/20e26a837a8449c4b8b934b07f71cb76.html). Required APIs to interact with CPI API runtime are described on the [SAP API Business Hub](https://api.sap.com/package/CloudIntegrationAPI?section=Artifacts).
 
