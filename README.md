@@ -22,6 +22,8 @@ SecretSynchLogicApp.json contains the LogicApp template that integrates with Azu
 
 The LogicApp relies on a "secret" naming convention to pull the credentials for the CPI API call. <cpi domain>-usr or -pwd. That eases some of the configuration required and decouples the setting on the LogicApp.
 
+In my example I am running two CPI instances. The first under domain dr-primary and the second under cpi-dr-secondary.
+
 ![Secret list](/keyvault-secret-list.png)
 
 The zip file "ShowSharedSecret.zip" contains an iFlow that reads the CPI credential "CPI-AUTH-SHARED" during runtime. I used to verify the approach and correct setup.
